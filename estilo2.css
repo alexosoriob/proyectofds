@@ -27,7 +27,7 @@ body {
 }
 
 #nav_bar li a:hover:not(.active) {
-    background-color: rgb(53, 46, 198);
+    background-color: rgb(27, 189, 160);
     text-decoration: underline;
 }
 
