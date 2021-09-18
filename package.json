@@ -1,0 +1,25 @@
+{
+  "name": "fdsweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodetest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexosoriob/proyectofds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexosoriob/proyectofds/issues"
+  },
+  "homepage": "https://github.com/alexosoriob/proyectofds#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.12"
+  }
+}
