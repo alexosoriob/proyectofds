@@ -35,6 +35,10 @@ body {
     background-color: orange;
 }
 
+#row li a[target] {
+    background-color: yellow;
+}
+
 .button1 {
     background-color: white;
     color: black;
@@ -52,4 +56,51 @@ body {
     background-color: #008CBA;
     color: white;
     box-shadow: 10px 8px 16px 5px rgba(150, 180, 0, .2);
+}
+
+#row ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(70, 137, 214);
+}
+
+#row li {
+    float: left;
+}
+
+#row li a {
+    text-decoration: none;
+    color: rgb(12, 206, 38);
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+#row li a:hover:not(.activa) {
+    text-decoration: underline;
+    background-color: rgb(248, 164, 7);
+}
+
+.activa {
+    background-color: black;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    background-color: lightgray;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 40%;
+    height: 30px;
+    margin-top: 5px;
+}
+
+input[type="text"]:focus {
+    background-color: lightblue;
 }
